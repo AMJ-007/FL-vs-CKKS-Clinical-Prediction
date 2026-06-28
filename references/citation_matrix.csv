@@ -1,0 +1,86 @@
+Section,Citation role,BibTeX key
+1. Introduction,Clinical AI motivation and benefits,Topol2019HighPerformanceMedicine
+1. Introduction,Clinical AI motivation and benefits,Esteva2019GuideDeepLearningHealthcare
+1. Introduction,Clinical AI motivation and benefits,Rajkomar2019MLMedicine
+1. Introduction,Clinical AI motivation and benefits,Beam2018BigDataMLHealthCare
+1. Introduction,Clinical AI motivation and benefits,Rajpurkar2022AIinHealthCare
+1. Introduction,"Clinical deployment, safety, ethics, trust",Kelly2019KeyChallengesAIHealthcare
+1. Introduction,"Clinical deployment, safety, ethics, trust",Wiens2019DoNoHarmMLHealthcare
+1. Introduction,"Clinical deployment, safety, ethics, trust",Vayena2018MachineLearningMedicineEthics
+1. Introduction,"Clinical deployment, safety, ethics, trust",Mittelstadt2016EthicsAlgorithms
+1. Introduction,"Clinical deployment, safety, ethics, trust",Choudhury2020TrustworthyAIHealthcare
+1. Introduction,"Privacy, governance and regulatory motivation",Kaissis2020SecurePrivacyPreservingMedicalAI
+1. Introduction,"Privacy, governance and regulatory motivation",GDPR2016
+1. Introduction,"Privacy, governance and regulatory motivation",HIPAA1996
+1. Introduction,"Privacy, governance and regulatory motivation",HHS2022HIPAAPrivacyRule
+1. Introduction,"Privacy, governance and regulatory motivation",GuerraManzanares2023PPMLHealthcare
+2. Related Work: Federated Learning in Healthcare,FL foundation and general surveys,McMahan2017FedAvg
+2. Related Work: Federated Learning in Healthcare,FL foundation and general surveys,Kairouz2021AdvancesOpenProblemsFL
+2. Related Work: Federated Learning in Healthcare,FL foundation and general surveys,Yang2019FederatedMachineLearningConcepts
+2. Related Work: Federated Learning in Healthcare,FL foundation and general surveys,Flower2020
+2. Related Work: Federated Learning in Healthcare,FL foundation and general surveys,Niknam2020FederatedLearningCommunications
+2. Related Work: Federated Learning in Healthcare,Healthcare FL reviews and applications,Rieke2020FutureDigitalHealthFL
+2. Related Work: Federated Learning in Healthcare,Healthcare FL reviews and applications,Xu2021FederatedLearningHealthcareSurvey
+2. Related Work: Federated Learning in Healthcare,Healthcare FL reviews and applications,Antunes2022FederatedLearningHealthcareSurvey
+2. Related Work: Federated Learning in Healthcare,Healthcare FL reviews and applications,Rahman2023FederatedLearningSmartHealthcareSurvey
+2. Related Work: Federated Learning in Healthcare,Healthcare FL reviews and applications,Choi2024MedicalApplicationsFLSurvey
+2. Related Work: Federated Learning in Healthcare,Healthcare FL reviews and applications,Prayitno2021SystematicFLHealthcare
+2. Related Work: Federated Learning in Healthcare,Medical FL case studies,Sheller2020FLBrainTumorSegmentation
+2. Related Work: Federated Learning in Healthcare,Medical FL case studies,Dayan2021FederatedCovid
+2. Related Work: Federated Learning in Healthcare,Medical FL case studies,Pati2022FeTS
+3. Related Work: Non-IID Federated Learning and Robustness,Heterogeneity and non-IID behaviour,Zhao2018FederatedNonIID
+3. Related Work: Non-IID Federated Learning and Robustness,Heterogeneity and non-IID behaviour,Li2020FedProx
+3. Related Work: Non-IID Federated Learning and Robustness,Heterogeneity and non-IID behaviour,Karimireddy2020SCAFFOLD
+3. Related Work: Non-IID Federated Learning and Robustness,Heterogeneity and non-IID behaviour,Li2022FederatedLearningNonIIDSurvey
+3. Related Work: Non-IID Federated Learning and Robustness,Heterogeneity and non-IID behaviour,Liu2021NonIIDSurvey
+3. Related Work: Non-IID Federated Learning and Robustness,Security/privacy limits of FL,Mothukuri2021SecurityPrivacyFLSurvey
+3. Related Work: Non-IID Federated Learning and Robustness,Security/privacy limits of FL,Bonawitz2017PracticalSecureAggregation
+3. Related Work: Non-IID Federated Learning and Robustness,Security/privacy limits of FL,Nasr2019ComprehensivePrivacyFL
+3. Related Work: Non-IID Federated Learning and Robustness,Security/privacy limits of FL,Zhu2019DeepLeakageGradients
+3. Related Work: Non-IID Federated Learning and Robustness,Security/privacy limits of FL,Geiping2020InvertingGradients
+3. Related Work: Non-IID Federated Learning and Robustness,Security/privacy limits of FL,Melis2019ExploitingUnintendedFeatureLeakage
+4. Related Work: Homomorphic Encryption and CKKS,HE foundations and libraries,Gentry2009FHE
+4. Related Work: Homomorphic Encryption and CKKS,HE foundations and libraries,Cheon2017CKKS
+4. Related Work: Homomorphic Encryption and CKKS,HE foundations and libraries,Acar2018HESurvey
+4. Related Work: Homomorphic Encryption and CKKS,HE foundations and libraries,MicrosoftSEAL
+4. Related Work: Homomorphic Encryption and CKKS,HE foundations and libraries,TenSEAL2021
+4. Related Work: Homomorphic Encryption and CKKS,Encrypted inference and ML under HE,Dowlin2016CryptoNets
+4. Related Work: Homomorphic Encryption and CKKS,Encrypted inference and ML under HE,Bost2015MachineLearningConfidentiality
+4. Related Work: Homomorphic Encryption and CKKS,Encrypted inference and ML under HE,Wood2020HEMedicineBioinformatics
+4. Related Work: Homomorphic Encryption and CKKS,Encrypted inference and ML under HE,AlBadawi2024PrivatePathologyFHE
+4. Related Work: Homomorphic Encryption and CKKS,Encrypted inference and ML under HE,Wu2025CKKSSurvey
+4. Related Work: Homomorphic Encryption and CKKS,Encrypted inference and ML under HE,Kucur2025PPMLSurvey
+4. Related Work: Homomorphic Encryption and CKKS,Encrypted inference and ML under HE,Nandakumar2019HEGenomicPrediction
+5. Privacy Risks and Complementary Protections,Inference and leakage attacks,Shokri2017MembershipInference
+5. Privacy Risks and Complementary Protections,Inference and leakage attacks,Fredrikson2015ModelInversion
+5. Privacy Risks and Complementary Protections,Inference and leakage attacks,Carlini2022MembershipInference
+5. Privacy Risks and Complementary Protections,Inference and leakage attacks,Nasr2019ComprehensivePrivacyFL
+5. Privacy Risks and Complementary Protections,Differential privacy context,Dwork2006DifferentialPrivacy
+5. Privacy Risks and Complementary Protections,Differential privacy context,Abadi2016DeepLearningDP
+5. Privacy Risks and Complementary Protections,Positioning FL and HE as complementary,Kaissis2020SecurePrivacyPreservingMedicalAI
+5. Privacy Risks and Complementary Protections,Positioning FL and HE as complementary,GuerraManzanares2023PPMLHealthcare
+5. Privacy Risks and Complementary Protections,Positioning FL and HE as complementary,Rieke2020FutureDigitalHealthFL
+5. Privacy Risks and Complementary Protections,Positioning FL and HE as complementary,Wood2020HEMedicineBioinformatics
+6. Methodology and Evaluation Metrics,Metrics and imbalanced evaluation,Fawcett2006ROC
+6. Methodology and Evaluation Metrics,Metrics and imbalanced evaluation,Saito2015PrecisionRecall
+6. Methodology and Evaluation Metrics,Metrics and imbalanced evaluation,Powers2011Evaluation
+6. Methodology and Evaluation Metrics,Tools and reproducibility,Pedregosa2011ScikitLearn
+6. Methodology and Evaluation Metrics,Tools and reproducibility,Harris2020NumPy
+6. Methodology and Evaluation Metrics,Tools and reproducibility,McKinney2010Pandas
+6. Methodology and Evaluation Metrics,Tools and reproducibility,Hunter2007Matplotlib
+6. Methodology and Evaluation Metrics,Tools and reproducibility,TenSEAL2021
+6. Methodology and Evaluation Metrics,Tools and reproducibility,Flower2020
+6. Methodology and Evaluation Metrics,Datasets,Dua2019UCI
+6. Methodology and Evaluation Metrics,Datasets,Janosi1988HeartDiseaseUCI
+6. Methodology and Evaluation Metrics,Datasets,Soriano2021StrokePredictionDataset
+7. Results and Discussion,Trade-off interpretation,McMahan2017FedAvg
+7. Results and Discussion,Trade-off interpretation,Kairouz2021AdvancesOpenProblemsFL
+7. Results and Discussion,Trade-off interpretation,Li2020FedProx
+7. Results and Discussion,Trade-off interpretation,Cheon2017CKKS
+7. Results and Discussion,Trade-off interpretation,Wood2020HEMedicineBioinformatics
+7. Results and Discussion,Trade-off interpretation,Kaissis2020SecurePrivacyPreservingMedicalAI
+7. Results and Discussion,Limitations and future work,Rieke2020FutureDigitalHealthFL
+7. Results and Discussion,Limitations and future work,Xu2021FederatedLearningHealthcareSurvey
+7. Results and Discussion,Limitations and future work,Mothukuri2021SecurityPrivacyFLSurvey
+7. Results and Discussion,Limitations and future work,Acar2018HESurvey
+7. Results and Discussion,Limitations and future work,Kucur2025PPMLSurvey

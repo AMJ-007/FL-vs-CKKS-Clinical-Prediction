@@ -1,0 +1,87 @@
+digraph FL_vs_CKKS {
+    graph [
+        rankdir=LR,
+        bgcolor="white",
+        pad="0.25",
+        nodesep="0.45",
+        ranksep="0.70",
+        fontname="Arial"
+    ];
+
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Arial",
+        fontsize=11,
+        margin="0.15,0.10"
+    ];
+
+    edge [
+        fontname="Arial",
+        fontsize=10,
+        arrowsize=0.8
+    ];
+
+    subgraph cluster_centralised {
+        label="(a) Centralised Learning";
+        fontsize=14;
+        style="rounded";
+        color="#4C78A8";
+
+        ca [label="Hospital A\nClinical data", fillcolor="#DCEAF7"];
+        cb [label="Hospital B\nClinical data", fillcolor="#DCEAF7"];
+        cc [label="Hospital C\nClinical data", fillcolor="#DCEAF7"];
+
+        pooled [label="Pooled clinical data", shape=cylinder, fillcolor="#EAF2F8"];
+        server [label="Central training server", fillcolor="#DCEAF7"];
+        model [label="Trained model\nfor prediction", fillcolor="#DCEAF7"];
+
+        ca -> pooled;
+        cb -> pooled;
+        cc -> pooled;
+        pooled -> server;
+        server -> model;
+    }
+
+    subgraph cluster_federated {
+        label="(b) Federated Learning (FedAvg)";
+        fontsize=14;
+        style="rounded";
+        color="#59A14F";
+
+        fa [label="Hospital A\nLocal data + training", fillcolor="#E3F2E1"];
+        fb [label="Hospital B\nLocal data + training", fillcolor="#E3F2E1"];
+        fc [label="Hospital C\nLocal data + training", fillcolor="#E3F2E1"];
+
+        aggregator [label="Aggregation server\n(FedAvg)", fillcolor="#E3F2E1"];
+        global [label="Global model", fillcolor="#E3F2E1"];
+
+        fa -> aggregator [label="model update"];
+        fb -> aggregator [label="model update"];
+        fc -> aggregator [label="model update"];
+
+        aggregator -> global;
+
+        global -> fa [label="global model", style=dashed];
+        global -> fb [label="global model", style=dashed];
+        global -> fc [label="global model", style=dashed];
+    }
+
+    subgraph cluster_ckks {
+        label="(c) CKKS Encrypted Inference";
+        fontsize=14;
+        style="rounded";
+        color="#9C6FB6";
+
+        owner [label="Patient / hospital\nClinical features", fillcolor="#F0E6F6"];
+        encrypted [label="Encrypt features\n(CKKS)", fillcolor="#F0E6F6"];
+        cloud [label="Cloud inference server\nProcesses ciphertext", fillcolor="#F0E6F6"];
+        decrypt [label="Local decryption", fillcolor="#F0E6F6"];
+        output [label="Risk score /\nprediction", fillcolor="#F0E6F6"];
+
+        owner -> encrypted;
+        encrypted -> cloud [label="encrypted query"];
+        cloud -> decrypt [label="encrypted score"];
+        decrypt -> output;
+    }
+}

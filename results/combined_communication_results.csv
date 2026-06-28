@@ -1,0 +1,5 @@
+Method,Communication Phase,Communication Bytes,Communication KB,Dataset
+Federated LR (FedAvg),"Training (5 rounds, 3 hospitals)",3360,3.28125,Heart Disease
+CKKS Encrypted Inference,Per encrypted inference query,334183,326.3505859375,Heart Disease
+Federated LR (FedAvg),"Training (5 rounds, 3 hospitals)",4080,3.984375,Stroke Prediction
+CKKS Encrypted Inference,Per encrypted inference query,334445,326.6064453125,Stroke Prediction

@@ -1,0 +1,4 @@
+Method,Training Time (s),Inference Time (s),Encryption Time per Query (s),Decryption Time per Query (s),Total Time per Query (s)
+Centralised LR,0.00494694709777832,0.0010232925415039062,,,
+Federated LR (FedAvg),0.7441785335540771,,,,
+CKKS Encrypted Inference,,0.05371145009994507,0.019508862495422365,0.0035076181093851725,0.0767279307047526

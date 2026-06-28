@@ -1,0 +1,4 @@
+Method,Training Data Locality,Inference Data Confidentiality,Computation Cost,Communication Cost,Best Suitable Scenario
+Centralised LR,Low,Low,Low,Low,Trusted central clinical analytics server
+Federated LR (FedAvg),High,Moderate,Moderate,Moderate to High,Multi-hospital collaborative model training
+CKKS Encrypted Inference,Moderate,High,High,High per query,Privacy-preserving cloud-based inference

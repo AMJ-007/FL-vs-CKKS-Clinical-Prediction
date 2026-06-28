@@ -1,0 +1,3 @@
+Method,Communication Phase,Communication Bytes,Communication KB
+Federated LR (FedAvg),"Training (5 rounds, 3 hospitals)",3360,3.28125
+CKKS Encrypted Inference,Per encrypted inference query,334183,326.3505859375
